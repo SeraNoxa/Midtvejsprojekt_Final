@@ -1,0 +1,98 @@
+.root{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Good Timing Rg";
+    -fx-base: rgb(95, 32, 87);
+}
+.button{
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 3;
+    -fx-padding: 5 10 5 10;
+    -fx-spacing: 10;
+}
+#startmenu{
+    -fx-background-image: url("../media/Image/menu.png");
+    -fx-background-size: 1100px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#leftattack{
+    -fx-min-height: 77;
+    -fx-min-width: 77;
+    -fx-background-image: url("../media/Image/shoryuken2.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: Transparent;
+    -fx-border-width: 0;
+}
+#rightattack{
+    -fx-min-height: 77;
+    -fx-min-width: 77;
+    -fx-background-image: url("../media/Image/jedzed_hadouken2.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: Transparent;
+    -fx-border-width: 0;
+}
+#heal{
+    -fx-min-height: 77;
+    -fx-min-width: 77;
+    -fx-background-image: url("../media/Image/energy-drink2.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: Transparent;
+    -fx-border-width: 0;
+}
+#leagueTable{
+    -fx-base: rgb(108, 151, 186);
+    -fx-background-image: url("../media/Image/leagueTable.jpg");
+    -fx-background-position: center;
+    -fx-background-size: 1300px;
+    -fx-background-repeat: no-repeat;
+}
+#startBattle{
+    -fx-base: rgb(108, 151, 186);
+    -fx-background-image: url("../media/Image/StartKampBaggrund.jpg");
+    -fx-background-position: center;
+    -fx-background-size: 1300px;
+    -fx-background-repeat: no-repeat;
+}
+#creatTeam {
+    -fx-base: rgb(108, 151, 186);
+    -fx-background-image: url("../media/Image/CreateTeam.jpg");
+    -fx-background-position: center;
+    -fx-background-size: 1300px;
+    -fx-background-repeat: no-repeat;
+}
+#battleView {
+    -fx-base: rgb(108, 151, 186);
+    -fx-background-image: url("../media/Image/BattleView.jpg");
+    -fx-background-position: center;
+    -fx-background-size: 1000px;
+    -fx-background-repeat: no-repeat;
+}
+#allTeams{
+    -fx-base: rgb(108, 151, 186);
+    -fx-background-image: url("../media/Image/InspectTeams.jpg");
+    -fx-background-position: center;
+    -fx-background-size: 1000px;
+    -fx-background-repeat: no-repeat;
+}
+#GameOver{
+    -fx-base: rgb(108, 151, 186);
+    -fx-background-image: url("../media/Image/BattleView.jpg");
+    -fx-background-position: center;
+    -fx-background-size: 400px;
+    -fx-background-repeat: no-repeat;
+}
+#eastereggbtn{
+    -fx-min-height: 260;
+    -fx-min-width: 260;
+    -fx-background-color: Transparent;
+    -fx-border-width: 0;
+    -fx-border: none;
+    -fx-overflow: hidden;
+    -fx-background-image: url("../media/Image/hasselhoff2.png");
+    -fx-background-position: center;
+    -fx-background-size: 260px;
+    -fx-background-repeat: no-repeat;
+}
